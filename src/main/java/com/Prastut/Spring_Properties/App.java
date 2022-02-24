@@ -23,7 +23,7 @@ public class App
        long population = countryBean1.getPopulation();
        System.out.println("Country name using Spring Bean is:" + name);
        System.out.println("Country population using Spring Bean is:" + population);
-//       ClassPathXmlApplicationContext bc = new ClassPathXmlApplicationContext("ApplicationContext.xml");
+//       ClassPathXmlApplicationContext bc = new ClassPathXmlApplicationContext("com.Prastut.Spring_Properties/ApplicationContext.xml");
 //       Country countryBean = (Country)bc.getBean("connttuu");
 //       String name1= countryBean.getName();
        
