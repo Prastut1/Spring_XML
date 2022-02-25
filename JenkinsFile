@@ -9,7 +9,7 @@ pipeline{
                   steps{
                       
                       withMaven(maven :'Maven3'){
-                          sh 'mvn clean compile'
+                          sh 'mvn clean install'
                       }
 
                   }
