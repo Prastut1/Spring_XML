@@ -27,14 +27,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-    <distributionManagement>
-        <repository>
-            <id>nexus-site</id>
-            <url>http://central_nexus/server</url>
-        </repository>
-    </distributionManagement>
-
-	<build>
+ <build>
     <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
